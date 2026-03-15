@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Portatil\\Documents\\Trabajos-Sena\\C#\\C-Sharp\\Trabajo C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D456CB56-9AFF-4B62-A1E5-BE48B76BA1B2}|Entity\\Entity.csproj|d:\\portatil\\documents\\trabajos-sena\\c#\\c-sharp\\trabajo c#\\entity\\companytestile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D456CB56-9AFF-4B62-A1E5-BE48B76BA1B2}|Entity\\Entity.csproj|solutionrelative:entity\\companytestile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyTestile.cs",
+              "DocumentMoniker": "D:\\Portatil\\Documents\\Trabajos-Sena\\C#\\C-Sharp\\Trabajo C#\\Entity\\CompanyTestile.cs",
+              "RelativeDocumentMoniker": "Entity\\CompanyTestile.cs",
+              "ToolTip": "D:\\Portatil\\Documents\\Trabajos-Sena\\C#\\C-Sharp\\Trabajo C#\\Entity\\CompanyTestile.cs",
+              "RelativeToolTip": "Entity\\CompanyTestile.cs",
+              "ViewState": "AQIAABYBAAAAAAAAAAAQwDABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T04:30:27.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

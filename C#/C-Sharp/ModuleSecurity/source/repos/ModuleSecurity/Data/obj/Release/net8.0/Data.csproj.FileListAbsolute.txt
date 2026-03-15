@@ -1,0 +1,16 @@
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\bin\Release\net8.0\Data.deps.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\bin\Release\net8.0\Data.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\bin\Release\net8.0\Data.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\bin\Release\net8.0\Entity.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\bin\Release\net8.0\Entity.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.csproj.AssemblyReference.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.AssemblyInfoInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.AssemblyInfo.cs
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.csproj.CoreCompileInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.sourcelink.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.csproj.Up2Date
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\refint\Data.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\Data.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Data\obj\Release\net8.0\ref\Data.dll

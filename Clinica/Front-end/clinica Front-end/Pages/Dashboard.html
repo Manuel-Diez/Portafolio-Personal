@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquizofrenia</title>
+
+    <!-- Librerías -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS Local -->
+    <link rel="stylesheet" href="../Asset/css/Dashboard.css">
+    <style>
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #f8f9fa;
+            position: fixed;
+            top: 0;
+            left: -250px; /* Oculto inicialmente */
+            transition: left 0.3s ease;
+            padding: 20px;
+            z-index: 1000;
+        }
+        .sidebar.open {
+            left: 0; /* Mostrar cuando esté abierto */
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            transition: margin-left 0.3s ease;
+        }
+        .content.shift {
+            margin-left: 0; /* Ajustar el contenido cuando el sidebar está abierto */
+        }
+        .toggle-btn {
+            font-size: 24px;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        .navbar-brand img {
+            max-height: 40px; /* Ajusta la altura del logo según sea necesario */
+            margin-right: 10px;
+        }
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+        .sidebar .close-btn {
+            font-size: 24px;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .nav-item {
+            margin-bottom: 10px; /* Espacio adicional entre los elementos del menú */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <div class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6">
+            <img src="path/to/logo.png" alt="Logo"> <!-- Reemplaza con la ruta de tu logo -->
+            <i class='bx bx-menu toggle-btn'></i> <!-- Ícono para abrir el sidebar -->
+        </div>
+        <!-- Botón de toggle para el sidebar en móviles -->
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </header>
+
+    <div class="sidebar">
+        <i class='bx bx-x close-btn'></i> <!-- Ícono para cerrar el sidebar -->
+        <div class="position-sticky pt-3 sidebar-sticky">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <br><br><br>
+                    <a class="nav-link active" aria-current="page" href="Dashboard.html">
+                        <i class='bx bx-home'></i>
+                        Home
+                    </a>
+                </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted text-uppercase">
+                <a class="link-secondary" href="#" aria-label="Add a new report">
+                    <i class='bx bx-plus-circle'></i>
+                </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="Medico.html" target="workSpace">
+                        <i class='bx bx-user-md'></i>
+                        Registrar Medico
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav flex-column mb-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="Paciente.html" target="workSpace">
+                        <i class='bx bx-user'></i>
+                        Registrar Paciente
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav flex-column mb-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="Ingreso.html" target="workSpace">
+                        <i class='bx bx-plus'></i>
+                        Registrar Ingreso
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="content">
+        <div class="framee">
+            <iframe id="workSpace" name="workSpace" class="my-4 w-100" height="850"></iframe>
+        </div>
+    </main>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn');
+        const closeBtn = document.querySelector('.close-btn');
+        const sidebar = document.querySelector('.sidebar');
+        const content = document.querySelector('.content');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+            content.classList.toggle('shift');
+        });
+
+        closeBtn.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+            content.classList.remove('shift');
+        });
+    </script>
+
+    <script src="../Asset/js/Dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

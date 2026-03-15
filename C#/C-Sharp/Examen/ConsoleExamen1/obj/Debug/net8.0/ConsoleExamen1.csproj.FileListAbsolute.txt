@@ -1,0 +1,14 @@
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.AssemblyInfoInputs.cache
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.AssemblyInfo.cs
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.csproj.CoreCompileInputs.cache
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\bin\Debug\net8.0\ConsoleExamen1.exe
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\bin\Debug\net8.0\ConsoleExamen1.deps.json
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\bin\Debug\net8.0\ConsoleExamen1.runtimeconfig.json
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\bin\Debug\net8.0\ConsoleExamen1.dll
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\bin\Debug\net8.0\ConsoleExamen1.pdb
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.dll
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\refint\ConsoleExamen1.dll
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.pdb
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ConsoleExamen1.genruntimeconfig.cache
+C:\Users\manuel\source\repos\Examen\ConsoleExamen1\obj\Debug\net8.0\ref\ConsoleExamen1.dll

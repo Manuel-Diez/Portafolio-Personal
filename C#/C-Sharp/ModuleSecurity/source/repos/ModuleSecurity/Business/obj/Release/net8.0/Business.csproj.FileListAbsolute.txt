@@ -1,0 +1,12 @@
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\bin\Release\net8.0\Business.deps.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\bin\Release\net8.0\Business.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\bin\Release\net8.0\Business.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.AssemblyInfoInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.AssemblyInfo.cs
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.csproj.CoreCompileInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.sourcelink.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\refint\Business.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\Business.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Business\obj\Release\net8.0\ref\Business.dll

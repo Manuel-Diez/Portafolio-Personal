@@ -1,0 +1,15 @@
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\bin\Release\net8.0\Entity.deps.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\bin\Release\net8.0\Entity.runtimeconfig.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\bin\Release\net8.0\Entity.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\bin\Release\net8.0\Entity.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.csproj.AssemblyReference.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.AssemblyInfoInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.AssemblyInfo.cs
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.csproj.CoreCompileInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.sourcelink.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\refint\Entity.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\Entity.genruntimeconfig.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Entity\obj\Release\net8.0\ref\Entity.dll

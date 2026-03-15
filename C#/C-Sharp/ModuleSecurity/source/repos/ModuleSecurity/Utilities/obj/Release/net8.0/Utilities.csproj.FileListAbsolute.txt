@@ -1,0 +1,12 @@
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\bin\Release\net8.0\Utilities.deps.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\bin\Release\net8.0\Utilities.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\bin\Release\net8.0\Utilities.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.AssemblyInfoInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.AssemblyInfo.cs
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.csproj.CoreCompileInputs.cache
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.sourcelink.json
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\refint\Utilities.dll
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\Utilities.pdb
+D:\Portatil\Documents\Trabajos-Sena\C#\C-Sharp\ModuleSecurity\source\repos\ModuleSecurity\Utilities\obj\Release\net8.0\ref\Utilities.dll

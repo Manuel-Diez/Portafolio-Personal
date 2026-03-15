@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="PersonSet" EntityType="Model1.Person" />
+    <EntitySet Name="UserSet" EntityType="Model1.User" />
+    <EntitySet Name="UserRoleSet" EntityType="Model1.UserRole" />
+    <EntitySet Name="RoleSet" EntityType="Model1.Role" />
+    <EntitySet Name="RoleViewSet" EntityType="Model1.RoleView" />
+    <EntitySet Name="ViewSet" EntityType="Model1.View" />
+    <EntitySet Name="ModuleSet" EntityType="Model1.Module" />
+    <AssociationSet Name="UserRoleUser" Association="Model1.UserRoleUser">
+      <End Role="UserRole" EntitySet="UserRoleSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+    <AssociationSet Name="PersonUser" Association="Model1.PersonUser">
+      <End Role="Person" EntitySet="PersonSet" />
+      <End Role="User" EntitySet="UserSet" />
+    </AssociationSet>
+    <AssociationSet Name="UserRoleRole" Association="Model1.UserRoleRole">
+      <End Role="UserRole" EntitySet="UserRoleSet" />
+      <End Role="Role" EntitySet="RoleSet" />
+    </AssociationSet>
+    <AssociationSet Name="RoleViewRole" Association="Model1.RoleViewRole">
+      <End Role="Role" EntitySet="RoleSet" />
+      <End Role="RoleView" EntitySet="RoleViewSet" />
+    </AssociationSet>
+    <AssociationSet Name="RoleViewView" Association="Model1.RoleViewView">
+      <End Role="RoleView" EntitySet="RoleViewSet" />
+      <End Role="View" EntitySet="ViewSet" />
+    </AssociationSet>
+    <AssociationSet Name="ViewModule" Association="Model1.ViewModule">
+      <End Role="View" EntitySet="ViewSet" />
+      <End Role="Module" EntitySet="ModuleSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="First_name" Type="String" Nullable="false" />
+    <Property Name="Last_name" Type="String" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" />
+    <Property Name="Addres" Type="String" Nullable="false" />
+    <Property Name="Type_document" Type="String" Nullable="false" />
+    <Property Name="Document" Type="Int32" Nullable="false" />
+    <Property Name="Birth_of_date" Type="DateTime" Nullable="false" />
+    <Property Name="CreateAt" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateAt" Type="DateTime" Nullable="false" />
+    <Property Name="DeleteAt" Type="DateTime" Nullable="false" />
+    <Property Name="Phone" Type="Int32" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <Property Name="CreateAt" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateAt" Type="DateTime" Nullable="false" />
+    <Property Name="DeleteAt" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="lstUserRole" Relationship="Model1.UserRoleUser" FromRole="User" ToRole="UserRole" />
+    <NavigationProperty Name="PersonId" Relationship="Model1.PersonUser" FromRole="User" ToRole="Person" />
+    <Property Name="PersonId1" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreateAt" Type="DateTime" Nullable="false" />
+    <Property Name="UpdateAt" Type="DateTime" Nullable="false" />
+    <Property Name="DeleteAt" Type="DateTime" Nullable="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="UserId" Relationship="Model1.UserRoleUser" FromRole="UserRole" ToRole="User" />
+    <NavigationProperty Name="RoleId" Relationship="Model1.UserRoleRole" FromRole="UserRole" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreateAt" Type="String" Nullable="false" />
+    <Property Name="UpdateAt" Type="String" Nullable="false" />
+    <Property Name="DeleteAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoleView">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CreateAt" Type="String" Nullable="false" />
+    <Property Name="UpdateAt" Type="String" Nullable="false" />
+    <Property Name="DeleteAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="String" Nullable="false" />
+    <NavigationProperty Name="RoleId" Relationship="Model1.RoleViewRole" FromRole="RoleView" ToRole="Role" />
+    <NavigationProperty Name="View" Relationship="Model1.RoleViewView" FromRole="RoleView" ToRole="View" />
+  </EntityType>
+  <EntityType Name="View">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreateAt" Type="String" Nullable="false" />
+    <Property Name="UpdateAt" Type="String" Nullable="false" />
+    <Property Name="DeleteAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="String" Nullable="false" />
+    <NavigationProperty Name="Module" Relationship="Model1.ViewModule" FromRole="View" ToRole="Module" />
+  </EntityType>
+  <EntityType Name="Module">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" />
+    <Property Name="CreateAt" Type="String" Nullable="false" />
+    <Property Name="UpdateAt" Type="String" Nullable="false" />
+    <Property Name="DeleteAt" Type="String" Nullable="false" />
+    <Property Name="State" Type="String" Nullable="false" />
+  </EntityType>
+  <Association Name="UserRoleUser">
+    <End Type="Model1.UserRole" Role="UserRole" Multiplicity="*" />
+    <End Type="Model1.User" Role="User" Multiplicity="1" />
+  </Association>
+  <Association Name="PersonUser">
+    <End Type="Model1.Person" Role="Person" Multiplicity="1" />
+    <End Type="Model1.User" Role="User" Multiplicity="1" />
+  </Association>
+  <Association Name="UserRoleRole">
+    <End Type="Model1.UserRole" Role="UserRole" Multiplicity="*" />
+    <End Type="Model1.Role" Role="Role" Multiplicity="1" />
+  </Association>
+  <Association Name="RoleViewRole">
+    <End Type="Model1.Role" Role="Role" Multiplicity="1" />
+    <End Type="Model1.RoleView" Role="RoleView" Multiplicity="*" />
+  </Association>
+  <Association Name="RoleViewView">
+    <End Type="Model1.RoleView" Role="RoleView" Multiplicity="*" />
+    <End Type="Model1.View" Role="View" Multiplicity="1" />
+  </Association>
+  <Association Name="ViewModule">
+    <End Type="Model1.View" Role="View" Multiplicity="*" />
+    <End Type="Model1.Module" Role="Module" Multiplicity="1" />
+  </Association>
+</Schema>
