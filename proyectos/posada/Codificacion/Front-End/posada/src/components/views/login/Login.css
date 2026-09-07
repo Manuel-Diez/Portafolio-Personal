@@ -1,0 +1,139 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #f8f9fa, #f0f2f5);
+  padding: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.login-form-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-bottom: 4px solid #B8860B;
+}
+
+.login-form-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #8B4513;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5D4037;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  background-color: #FFF8DC;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #B8860B;
+  box-shadow: 0 0 0 2px rgba(184, 134, 11, 0.2);
+}
+
+.input-error {
+  border-color: #dc3545 !important;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form-actions {
+  margin-top: 10px;
+}
+
+.login-button {
+  padding: 12px;
+  background: linear-gradient(to right, #8B4513, #A0522D);
+  color: #FFE4B5;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background: linear-gradient(to right, #A0522D, #8B4513);
+}
+
+.login-button:disabled {
+  background: linear-gradient(to right, #A0522D80, #8B451380);
+  cursor: not-allowed;
+}
+
+.form-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.form-footer a {
+  color: #B8860B;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form-footer a:hover {
+  text-decoration: underline;
+  color: #8B4513;
+}
+
+.forgot-password {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #FFF8DC;
+  color: #8B4513;
+  border: 1px solid #DAA520;
+  border-left: 4px solid #B8860B;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}

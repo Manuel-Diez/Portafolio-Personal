@@ -1,0 +1,23 @@
+# ---- .NET / Visual Studio ----
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- Java / Maven / Eclipse ----
+target/
+*.class
+.classpath
+.project
+.settings/
+
+# ---- Node ----
+node_modules/
+
+# ---- OS / editor cruft ----
+.DS_Store
+Thumbs.db
+*.log

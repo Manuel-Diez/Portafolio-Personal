@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: posada
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - posada-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build: ./Codificacion/Back-End/posada
+    ports:
+      - "9000:9000"
+    environment:
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/posada
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build: ./Codificacion/Front-End/posada
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  posada-db-data:
